@@ -1,0 +1,115 @@
+/* 전체 스타일 */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #0f9b0f, #000000);
+    text-align: center;
+    padding: 20px;
+}
+
+/* 컨테이너 스타일 */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* 제목 스타일 */
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* 문제 스타일 */
+.question {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* 입력 필드 스타일 */
+input {
+    border: none;
+    border-bottom: 3px solid gray;
+    font-size: 18px;
+    width: 180px;
+    text-align: center;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+input:focus {
+    border-bottom: 3px solid #1fa2ff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 버튼 스타일 */
+button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: rgba(50, 50, 50, 0.3);
+    transform: scale(1.05);
+}
+
+/* 정답/오답 네온 색상 */
+.correct {
+    background-color: #39ff14; /* 네온 그린 */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 0 0 8px #39ff14;
+}
+
+.incorrect {
+    background-color: #ff073a; /* 네온 레드 */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 0 0 8px #ff073a;
+}
+
+/* 결과 메시지 스타일 */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* 언어 전환 버튼 스타일 (정답 제출 버튼과 동일) */
+#toggleLanguage {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#toggleLanguage:hover {
+    background: rgba(50, 50, 50, 0.3);
+    transform: scale(1.05);
+}
