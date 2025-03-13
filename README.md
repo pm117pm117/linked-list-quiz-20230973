@@ -17,3 +17,8 @@ HTML, CSS, JavaScript로 구현되었고, 사용자가 즉각적으로 정답 �
 - HTML  
 - CSS  
 - JavaScript  
+
+# 추가 기능
+- 디자인 변경
+- 문제 한글로 변역
+- 한영 전환 기능(오류 수정 중)
